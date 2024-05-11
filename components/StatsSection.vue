@@ -17,7 +17,7 @@
             alt="Stats"
           /> -->
           <NuxtImg
-            src="https://images.unsplash.com/photo-1561438774-1790fe271b8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEyfHxoYXBweSUyMGRvZ3xlbnwwfHx8fDE2ODMyOTgzOTc&ixlib=rb-4.0.3&q=80&w=1080"
+            src="https://wotpack.ru/wp-content/uploads/2024/03/3-personazha-Honkai-Star-Rail-mogut-poluchit-novye-Puti.jpg"
             class="mb-6 rounded-3xl w-full"
             alt="Stats"
           />
@@ -30,8 +30,7 @@
           </h6>
           <h3 class="capitalize mb-6">Impact we make</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
+            Come and join us to our grand mission of adopting cute and chibi characters!
           </p>
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="px-4 py-6 w-1/2">

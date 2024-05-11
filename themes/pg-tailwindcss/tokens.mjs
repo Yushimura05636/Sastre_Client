@@ -225,16 +225,16 @@ const pg_font_urls = [
 
 const pg_backgrounds = {
   'design-image':
-    "url('https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxkb2d8ZW58MHx8fHwxNjgzMjc1MDI1&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=1200&fit=crop')",
+    'https://cdn.mmoculture.com/mmo-images/2023/05/Banner_com.HoYoverse.hkrpgoversea.jpg',
   'design-image-large':
-    "url('https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxkb2d8ZW58MHx8fHwxNjgzMjc1MDI1&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=crop')",
+    'https://cdn.mmoculture.com/mmo-images/2023/05/Banner_com.HoYoverse.hkrpgoversea.jpg',
 }
 
 const pg_background_urls = {
   'design-image':
-    'https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxkb2d8ZW58MHx8fHwxNjgzMjc1MDI1&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=1200&fit=crop',
+    'https://cdn.mmoculture.com/mmo-images/2023/05/Banner_com.HoYoverse.hkrpgoversea.jpg',
   'design-image-large':
-    'https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxkb2d8ZW58MHx8fHwxNjgzMjc1MDI1&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=crop',
+    'https://cdn.mmoculture.com/mmo-images/2023/05/Banner_com.HoYoverse.hkrpgoversea.jpg',
 }
 
 export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds, pg_background_urls }

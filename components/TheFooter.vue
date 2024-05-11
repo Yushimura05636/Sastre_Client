@@ -10,98 +10,22 @@
         >
           <NuxtLink class="-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center text-3xl">
-              <svg
-                version="1.0"
-                xmlns="http://www.w3.org/2000/svg"
-                width="2.5em"
-                xml:space="preserve"
-                fill="currentColor"
-                viewBox="0 0 240 240"
-                height="2.5em"
-                class="mr-2"
-              >
-                <g transform="translate(17.704 -9.215)">
-                  <path
-                    d="M92.45 183.38a61.38 61.38 0 00-30.07 15.35 9.84 9.84 0 01-15.9-3.73 61.65 61.65 0 11115.83-.18 9.87 9.87 0 01-16 3.9 61.43 61.43 0 00-30.07-15.35"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></path>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-22.39 282.115 44.556)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-22.39 179.693 -83.499)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-67.61 176.48 -54.394)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-67.61 119.616 -48.074)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="3.19"
-                    cy="3.19"
-                    r="3.19"
-                    transform="translate(101.16 179.05)"
-                    fill="#475f17"
-                  ></circle>
-                  <path
-                    d="M89.72 137a20.84 20.84 0 00-20.84 20.84v.16"
-                    fill="none"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></path>
-                  <path
-                    d="M15.7 47.82h-2.75v-2.76a3.4 3.4 0 00-6.79 0v2.76H3.4a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zm172.43 9.55h-2.76v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.76v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zM25.25 203.82H22.5v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79z"
-                    fill="#475f17"
-                  ></path>
-                </g>
-              </svg>
+              <img
+                src="https://cdn2.steamgriddb.com/logo/804bfd285116c91c935176b2b199894d.png"
+                class="w-15 h-10"
+              />
               <h6 class="font-serif inline-flex items-center text-3xl">
-                Happy Paws
+                AniList
               </h6>
             </div>
           </NuxtLink>
           <p class="mt-2 text-center w-full lg:text-left">
-            Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec.
-            Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper
-            semper.
+            Come and join us to our community and spread the love of chibi star rail characters!
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
               <NuxtLink
-                href="https://www.facebook.com/vuedesigner"
+                href="https://web.facebook.com/HonkaiStarRail/?_rdc=1&_rdr"
                 aria-label="facebook"
                 external
                 target="_blank"
@@ -113,7 +37,7 @@
                 ></BaseIcon>
               </NuxtLink>
               <NuxtLink
-                href="https://twitter.com/vuedesigner"
+                href="https://twitter.com/honkaistarrail?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 aria-label="twitter"
                 external
                 target="_blank"
@@ -125,7 +49,7 @@
                 ></BaseIcon>
               </NuxtLink>
               <NuxtLink
-                href="https://discord.gg/BYp45Nnu5T"
+                href="https://discord.com/invite/honkaistarrail"
                 aria-label="discord"
                 external
                 target="_blank"
@@ -137,7 +61,7 @@
                 ></BaseIcon>
               </NuxtLink>
               <NuxtLink
-                href="https://www.youtube.com/@vuedesigner"
+                href="https://www.youtube.com/channel/UC2PeMPA8PAOp-bynLoCeMLA"
                 aria-label="youtube"
                 external
                 target="_blank"
@@ -153,7 +77,7 @@
           <div class="my-6 text-center">
             <NuxtLink to="/">+1 234 567-890</NuxtLink>
             <br />
-            <NuxtLink to="/">hello@fantico.com</NuxtLink>
+            <NuxtLink to="/">Sasas@AniList.store</NuxtLink>
           </div>
         </div>
         <div
@@ -252,7 +176,7 @@
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHBldHxlbnwwfHx8fDE2MzA0NjI1MjM&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  src="https://pbs.twimg.com/profile_images/1649600358191337472/m96xbkjO_400x400.jpg"
                   class="w-full"
                 />
               </div>
@@ -260,7 +184,7 @@
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1491485880348-85d48a9e5312?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1fHxjYXR8ZW58MHx8fHwxNjMwNDY3NzE4&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  src="https://preview.redd.it/seele-art-by-lino-3o-v0-6bgcrr1pj4xa1.jpg?auto=webp&s=65ded071db841ebf85460eaf008b29756c7d2942"
                   class="w-full"
                 />
               </div>
@@ -268,7 +192,7 @@
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1591946614720-90a587da4a36?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIzfHxwZXR8ZW58MHx8fHwxNjMwNDYyNTIz&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  src="https://upload-os-bbs.hoyolab.com/upload/2023/05/02/329146984/45af76b70d5d21cc5bd531363f9fc750_4451139745985047815.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80"
                   class="w-full"
                 />
               </div>
@@ -276,7 +200,7 @@
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI3fHxjYXR8ZW58MHx8fHwxNjMwNDY3NzE4&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  src="https://64.media.tumblr.com/be8dfb03bb683e69fb4c320534b5326f/21b1c333efea79ac-28/s1280x1920/7de4b3204e17ac512c5a25584e1a3f7c32f967d4.jpg"
                   class="w-full"
                 />
               </div>
@@ -284,7 +208,7 @@
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1524511751214-b0a384dd9afe?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI4fHxwZXR8ZW58MHx8fHwxNjMwNDYyNTIz&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  src="https://i.pinimg.com/736x/fd/77/da/fd77dabcc9431460046ffa56d2703953.jpg"
                   class="w-full"
                 />
               </div>
@@ -292,7 +216,7 @@
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1591561582301-7ce6588cc286?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxyYWJiaXR8ZW58MHx8fHwxNjMwNDY3NjUw&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  src="https://avatarfiles.alphacoders.com/366/thumb-1920-366624.jpg"
                   class="w-full"
                 />
               </div>
@@ -302,7 +226,7 @@
         <div class="flex flex-col sm:w-full md:items-end">
           <hr class="mb-4 opacity-25" />
           <p class="py-1 text-sm sm:text-center">
-            &copy; 2002 - 2021. All Rights Reserved - Company Name
+            &copy; 2002 - 2021. All Rights Reserved - AniList
           </p>
         </div>
       </div>

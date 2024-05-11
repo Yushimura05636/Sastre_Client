@@ -115,6 +115,7 @@ export default defineNuxtConfig({
     },
     domains: [
       'images.unsplash.com',
+      'w0.peakpx.com',
       'fakestoreapi.com',
       'res.cloudinary.com',
       'avatars.githubusercontent.com',

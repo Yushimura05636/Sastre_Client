@@ -29,10 +29,10 @@
     <BaseButton
       class="ml-3"
       target="_blank"
-      to="https://vuedesigner.com"
+      to=""
       size="xl"
       color="secondary"
-      ><span class="pl-2">Try Now</span>
+      ><NuxtLink to="/blog" class="pl-2">Blog</NuxtLink>
       <template #trailing>
         <BaseIcon name="i-mdi-pine-tree" height="24px"></BaseIcon>
       </template>

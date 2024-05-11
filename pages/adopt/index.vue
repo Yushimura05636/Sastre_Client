@@ -18,10 +18,9 @@
     <div class="flex flex-col items-center">
       <div class="px-4 text-center w-full lg:w-7/12">
         <h6 class="uppercase">Adopt A Pet</h6>
-        <h3 class="capitalize">Small Gesture For A Big Impact</h3>
+        <h3 class="capitalize">Adopt cute and reliable pets!</h3>
         <p class="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
-          congue tortor.
+          This section is for honkai star rail characters chibi pet edition.
         </p>
       </div>
     </div>

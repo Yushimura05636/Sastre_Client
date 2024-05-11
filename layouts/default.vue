@@ -6,7 +6,12 @@
   <div>
     <!-- <div class="container mx-auto"> -->
     <div
-      class="min-h-screen flex flex-col bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+      style="background: url('https://i.pinimg.com/736x/85/4f/9d/854f9d4444e8f9721f123ef756eed597.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-position: center;  
+            background-attachment:fixed;"
+      class="min-h-screen flex flex-col  text-neutral-900 dark:text-neutral-50"
     >
       <NavBar class="fixed shadow z-20 bg-white dark:bg-neutral-950" />
       <div class="mt-24">

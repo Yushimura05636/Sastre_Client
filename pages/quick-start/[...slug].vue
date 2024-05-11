@@ -24,26 +24,6 @@
 </script>
 <template>
   <div>
-    <TheHeader>
-      <div>
-        <div class="flex items-center">
-          <h2 class="text-5xl font-semibold">Quick Start</h2>
-        </div>
-        <div class="flex items-center mt-4">
-          <h6>Github repo for this template</h6>
-          <BaseButton
-            size="xs"
-            class="ml-2"
-            color="secondary"
-            :to="github"
-            target="_blank"
-          >
-            <span>Click here</span>
-          </BaseButton>
-        </div>
-        <slot />
-      </div>
-    </TheHeader>
     <section class="container mx-auto">
       <div class="px-10 w-full">
         <div class="flex flex-col rounded-lg">

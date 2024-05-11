@@ -14,7 +14,7 @@
         //     process.env.NODE_ENV === 'production'
         //       ? 'netlify'
         //       : null /* defaults to ipx or ipxStatic */,
-        placeholder: false, // placeholder image before the actual image is fully loaded.
+        placeholder: true, // placeholder image before the actual image is fully loaded.
       },
       true /* return bgStyles */,
     ),
@@ -22,12 +22,16 @@
 
   const heroImage = heroImageOptimized.src
   const bgStyles = heroImageOptimized.bgStyles
+
+  //use this only for not splash images url
+  const bgStylesT = bgStyles.replaceAll('768w' || '2560w', '');
+
 </script>
 <template>
   <section class="container mx-auto pb-12 px-4">
     <div
       class="bg-center bg-cover bg-no-repeat blur-none rounded-3xl z-0"
-      :style="bgStyles"
+      :style='bgStylesT'
     >
       <!-- <div
       class="bg-center bg-cover bg-no-repeat blur-none rounded-3xl z-0 bg-design-image lg:bg-design-image-large"
@@ -41,24 +45,27 @@
               <h4
                 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase"
               >
-                Adopt A Pet
+                Adopt A Chibi Pet
               </h4>
               <h1 class="capitalize leading-tight mb-2 text-white">
-                Thousands of homeless dogs, one act of kindness
+                Thousands of homeless chibi pets, one act of kindness
               </h1>
               <p class="font-thin mb-6 text-gray-300">
-                Find your new furry friend today! We have a wide variety of
-                lovable pets available for adoption. Come visit us and take home
+                Find your new star rail friends today! We have a wide variety of
+                lovable chibi pets available for adoption. Come visit us and take home
                 your new best friend!
               </p>
               <BaseButton
                 size="xl"
                 label="Adopt Now"
                 target="_blank"
-                to="https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss"
+                to="https://hsr.hoyoverse.com/en-us/"
               >
                 <div class="inline-block ml-1 p-1.5 text-lg">Adopt Now</div>
-                <BaseIcon name="i-noto-dog-face" height="28px"></BaseIcon>
+                <img
+                  src="https://64.media.tumblr.com/9156a39fee5687ee2e1195865ca4617a/4caafae280536c78-84/s540x810/881c446ea9bb2bbd2290b28ab34a914c9cb0903f.png"
+                  class="w-10 h-10"
+                   />
               </BaseButton>
             </div>
           </div>
