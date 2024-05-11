@@ -61,7 +61,7 @@
                 target="_blank"
                 to="https://hsr.hoyoverse.com/en-us/"
               >
-                <div class="inline-block ml-1 p-1.5 text-lg">Adopt Now</div>
+                <NuxtLink to ="/adopt" class="inline-block ml-1 p-1.5 text-lg">Adopt Now</NuxtLink>
                 <img
                   src="https://64.media.tumblr.com/9156a39fee5687ee2e1195865ca4617a/4caafae280536c78-84/s540x810/881c446ea9bb2bbd2290b28ab34a914c9cb0903f.png"
                   class="w-10 h-10"
